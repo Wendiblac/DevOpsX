@@ -20,3 +20,13 @@
         dest: /var/www/html/
         recursive: yes
         delete: yes
+    
+    - name: Test Nginx configuration
+      command: nginx -t
+      register: nginx_test
+      failed_when: "'successful' not in nginx_test.stdout"
+
+    - name: Reload Nginx
+      service:
+        name: nginx
+        state: reloaded
