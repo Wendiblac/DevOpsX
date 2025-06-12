@@ -9,6 +9,11 @@
         state: present
         update_cache: yes
 
+    - name: Install rsync
+      apt:
+        name: rsync
+        state: present
+
     - name: Sync files to server
       synchronize:
         src: ../
