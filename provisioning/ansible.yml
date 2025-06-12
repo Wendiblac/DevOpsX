@@ -24,7 +24,7 @@
     - name: Test Nginx configuration
       command: nginx -t
       register: nginx_test
-      failed_when: "'successful' not in nginx_test.stdout"
+      failed_when: "'successful' not in nginx_test.stdout + nginx_test.stderr"
 
     - name: Reload Nginx
       service:
