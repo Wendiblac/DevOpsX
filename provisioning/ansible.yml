@@ -9,7 +9,9 @@
         state: present
         update_cache: yes
 
-    - name: Copy website files
-      copy:
-        src: ../Devopsx/
+    - name: Sync files to server
+      synchronize:
+        src: ../
         dest: /var/www/html/
+        recursive: yes
+        delete: yes
