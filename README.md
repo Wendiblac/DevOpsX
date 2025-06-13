@@ -126,7 +126,7 @@ I updated file permissions for web accessibility with chown and chmod then I rel
 To complete the deployment I then organized and moved my website files into the correct Nginx directory for easy accesibility.
 ![Website Files](./screenshots/site-files.png)
  
-Once I refreshed the browser, my full custom landing page loaded under https://devops.wendiblac.com—secured and hosted live successfully🚀.
+Once I refreshed the browser, my full custom landing page loaded under https://devops.wendiblac.com secured and hosted live successfully🚀.
 ![Hero Section](./screenshots/hero.png)
 ![Project Overview](./screenshots/overview.png)
 ![About Me Section](./screenshots/about.png)
