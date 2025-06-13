@@ -1,5 +1,5 @@
 ---
-- name: Deploy my web app
+- name: Deploy DevOpsX site
   hosts: all
   become: yes
   tasks:
@@ -9,17 +9,11 @@
         state: present
         update_cache: yes
 
-    - name: Install rsync
-      apt:
-        name: rsync
-        state: present
-
-    - name: Sync files to server
-      synchronize:
-        src: /mnt/c/Users/Wendiblac/Devopsx/
+    - name: Clone the repository to the server
+      git:
+        repo: 'https://github.com/Wendiblac/DevOpsX.git'
         dest: /var/www/devops-test
-        recursive: yes
-        delete: yes
+        force: yes
 
     - name: Set permissions on web directory
       file:
