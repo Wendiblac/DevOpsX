@@ -16,7 +16,7 @@
 
     - name: Sync files to server
       synchronize:
-        src: ../
+        src: /c/Users/Wendiblac/Devopsx/
         dest: /var/www/devops-test
         recursive: yes
         delete: yes
