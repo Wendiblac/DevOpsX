@@ -163,7 +163,7 @@ This project was a deep, practical dive into the responsibilities of a DevOps/Cl
 I learned how to troubleshoot each step, and more importantly, how to think through each decision like an engineer focused on security, efficiency, and scalability.
 
 
-##🙋🏽‍♀️ About Me##
+## 🙋🏽‍♀️ About Me
 My name is Wendy Amadi, a passionate Cloud/DevOps Engineer in training. This project is one of many hands-on deployments I’ve done to build real-world skills and demonstrate my understanding of Cloud computing and DevOps practices.
 I’m currently seeking internship opportunities where I can apply what I’ve learned, grow under mentorship, and contribute to production-level systems.
 If you’re hiring or would like to connect, I’d love to hear from you!
