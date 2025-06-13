@@ -1,4 +1,5 @@
 # DevOpsX: Cloud Infrastructure Deployment & Automation 🚀
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Welcome to DevOpsX — a comprehensive DevOps project that showcases my ability to deploy, configure, and automate a production-ready cloud infrastructure from scratch.
 
@@ -172,3 +173,11 @@ If you’re hiring or would like to connect, I’d love to hear from you!
 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/wendiblac)
 
 **Thank you for reading!**
+
+## © Copyright and License
+
+© 2025 Wendy Amadi (Wendiblac). All rights reserved.
+
+This project is licensed for educational and portfolio purposes only. No part of this repository may be copied, reproduced, or used for commercial purposes without explicit permission from the author.
+
+If you'd like to reference or reuse parts of this work, please credit appropriately and link back to this repository: [https://github.com/Wendiblac/DevOpsX](https://github.com/Wendiblac/DevOpsX).
