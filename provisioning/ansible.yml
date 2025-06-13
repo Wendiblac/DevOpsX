@@ -9,11 +9,16 @@
         state: present
         update_cache: yes
 
+    - name: Remove existing directory if present
+      file:
+        path: /var/www/devops-test
+        state: absent
+
+
     - name: Clone the repository to the server
       git:
         repo: 'https://github.com/Wendiblac/DevOpsX.git'
         dest: /var/www/devops-test
-        force: yes
         update: yes
 
 
