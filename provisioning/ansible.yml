@@ -14,6 +14,8 @@
         repo: 'https://github.com/Wendiblac/DevOpsX.git'
         dest: /var/www/devops-test
         force: yes
+        update: yes
+
 
     - name: Set permissions on web directory
       file:
