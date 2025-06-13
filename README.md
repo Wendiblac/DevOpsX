@@ -91,6 +91,7 @@ ansible-playbook -i inventory.ini site.yml
 Once it completed, I tested the public IP of the EC2 instance in the browser and saw the default Nginx landing page. That confirmed that my Ansible configuration and server setup were working properly.
 ![WebServer Running](./screenshots/webserver.png)
 
+
 ## 🌍 Step 4 – Linking Subdomain and Adding SSL
 
 With the server up, I moved on to connect my subdomain. I already had a main domain hosted on Netlify, so I went into my DNS settings there and created an A record for the subdomain **devops.wendiblac.com** pointing to the EC2’s public IP.
@@ -135,6 +136,7 @@ Once I refreshed the browser, my full custom landing page loaded under https://d
 
 
 ## 🔁 Bonus Step – CI/CD with GitHub Actions + Ansible
+
 I took an extra step to make the deployment process more realistic, I implemented a basic CI/CD pipeline.
 I went into my GitHub repo and added the following secrets:
 •	SSH_USER – the EC2 username (ubuntu)
@@ -157,13 +159,15 @@ After pushing the changes, the Github Actions Workflow and Provisions, I checked
 ![Deployment Successful](./screenshots/deployed.png)
 
 
-✅ Final Outcome 🍾
+## ✅ Final Outcome 🍾
+
 After all the steps, I had a live, secure website hosted at https://devops.wendiblac.com, deployed on AWS EC2, automated with Ansible, and continuously delivered via GitHub Actions.
 This project was a deep, practical dive into the responsibilities of a DevOps/Cloud Engineer. I touched every layer: infrastructure provisioning, server automation, DNS setup, HTTPS, web server config, GitHub integration, and CI/CD.
 I learned how to troubleshoot each step, and more importantly, how to think through each decision like an engineer focused on security, efficiency, and scalability.
 
 
 ## 🙋🏽‍♀️ About Me
+
 My name is Wendy Amadi, a passionate Cloud/DevOps Engineer in training. This project is one of many hands-on deployments I’ve done to build real-world skills and demonstrate my understanding of Cloud computing and DevOps practices.
 I’m currently seeking internship opportunities where I can apply what I’ve learned, grow under mentorship, and contribute to production-level systems.
 If you’re hiring or would like to connect, I’d love to hear from you!
