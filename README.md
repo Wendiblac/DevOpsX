@@ -7,6 +7,7 @@ This hands-on project was part of my second semester exam challenge, where I pro
 The goal was to simulate a real-world, investor-ready deployment environment — and I delivered it live at:
 
 🔗 https://devops.wendiblac.com
+🔗 http://3.255.123.249
 
 ## 🔧 Project Overview
 
